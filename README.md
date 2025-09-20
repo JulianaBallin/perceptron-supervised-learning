@@ -82,4 +82,37 @@ The objective is to implement Rosenblatt's Perceptron training algorithm in Pyth
 - [Python Data Science Handbook – Scatter Plots](https://jakevdp.github.io/PythonDataScienceHandbook/04.02-simple-scatter-plots.html)  
 - [Google Colab](http://colab.research.google.com/)  
 
+## Instalação e Configuração
+
+Este projeto utiliza o "uv" para gerenciamento de dependências. É necessário instalá-lo no seu computador:
+
+### Instalação do UV
+
+**Windows:**
+```
+powershell -ExecutionPolicy ByPass -c "irm https://astral.sh/uv/install.ps1 | iex"
+``` 
+
+**MacOS | Linux:**
+```
+curl -LsSf https://astral.sh/uv/install.sh | sh
+``` 
+
+### Configuração do Ambiente
+
+Após instalar o UV, execute o comando abaixo na raiz do projeto:
+```
+uv sync
+``` 
+
+Este comando irá:
+- Criar o ambiente virtual (.venv)
+- Instalar todas as dependências necessárias
+
+Caso a versão do python não seja instalada com 'uv sync', utilize:
+```
+uv python install
+``` 
+Este comando irá:
+- Instalar a versão correta do Python para o projeto
 ---
