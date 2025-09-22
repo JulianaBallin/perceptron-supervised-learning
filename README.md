@@ -56,7 +56,7 @@ The objective is to implement Rosenblatt's Perceptron training algorithm in Pyth
 ## 👥 Team Members
 
 - **Juliana Ballin Lima**  
-  Registration: 2315310011 
+  Registration: 2315310011  
   [GitHub Profile](https://github.com/JulianaBallin)  
 
 - **Marcelo Heitor de Almeida Lira**  
@@ -71,7 +71,9 @@ The objective is to implement Rosenblatt's Perceptron training algorithm in Pyth
   Registration: 2315310047  
   [GitHub Profile](https://github.com/RyanDaSilvaMarinho)  
 
-- **Vitória** *(to be added)*  
+- **Vitória Gabrielle Kinshasa Silva de Almeida**  
+  Registration: 2415280044  
+  [GitHub Profile](httos://github.com/VitoriaKinshasa)
 
 ---
 
