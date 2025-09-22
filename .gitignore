@@ -1,1 +1,46 @@
-.venv
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+venv/
+.env/
+.venv/
+*.env
+*.venv
+perceptron
+perceptron/
+
+# Package managers
+poetry.lock
+uv.lock
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# VSCode / PyCharm settings
+.vscode/
+.idea/
+.history/
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Python build
+*.egg
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# Logs
+*.log
+
+# Data / temporary files
+*.txt
+*.csv
+*.dat
+*.npy
+*.npz
