@@ -1,11 +1,18 @@
 [project]
 name = "perceptron-supervised-learning"
 version = "0.1.0"
-description = "Add your description here"
+description = "Perceptron training and experimentation project (Supervised Learning - RNAS 2025.2)"
 readme = "README.md"
 requires-python = ">=3.12"
+
 dependencies = [
-    "matplotlib>=3.10.6",
     "numpy>=2.3.3",
-    "pandas>=2.3.2",
+    "matplotlib>=3.10.6",
+    "scikit-learn>=1.5.2",
+    "prettytable>=3.11.0",
 ]
+
+[tool.poetry.group.dev.dependencies]
+# Development / optional tools
+pandas = ">=2.3.2"
+notebook = ">=7.2.2"
