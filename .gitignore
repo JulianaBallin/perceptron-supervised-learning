@@ -37,10 +37,3 @@ build/
 
 # Logs
 *.log
-
-# Data / temporary files
-*.txt
-*.csv
-*.dat
-*.npy
-*.npz
