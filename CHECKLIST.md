@@ -38,16 +38,16 @@ Este documento serve como guia de acompanhamento da equipe para garantir que **t
 
 ---
 
-## 🟡 Parte II – Experimentação
-- [ ] Usar `data<ID>.txt` onde `<ID>` é o identificador da equipe.  
-- [ ] Executar **10 repetições** em cada configuração:  
+## 🟢 Parte II – Experimentação
+- [ ✅] Usar `data<ID>.txt` onde `<ID>` é o identificador da equipe.  
+- [✅] Executar **10 repetições** em cada configuração:  
   - η ∈ {0.4, 0.1, 0.01}  
   - Intervalos de pesos ∈ {(-100,+100), (-0.5,+0.5)}  
-- [ ] Coletar para cada configuração:  
-  - [ ] Média ± desvio padrão de ajustes.  
-  - [ ] Menor nº de épocas até convergência.  
-- [ ] Montar **tabela comparativa** (ex: `prettytable`).  
-- [ ] Escrever discussão: melhor/pior configuração ou equivalência.  
+- [✅] Coletar para cada configuração:  
+  - [✅] Média ± desvio padrão de ajustes.  
+  - [✅] Menor nº de épocas até convergência.  
+- [✅] Montar **tabela comparativa** (ex: `prettytable`).  
+- [✅] Escrever discussão: melhor/pior configuração ou equivalência.  
 
 ---
 
